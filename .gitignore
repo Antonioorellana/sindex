@@ -1,0 +1,28 @@
+# Ambientes virtuales
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración del IDE (si usas VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ejecutables y empaquetados
+dist/
+build/
+*.spec
+
+# Base de datos local (si es que db/ o archivos/ tienen datos de pruebas que no quieres subir)
+# Descomenta las líneas de abajo si NO quieres subir esas carpetas
+# db/
+# archivos/
